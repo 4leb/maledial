@@ -1,0 +1,36 @@
+.turn {
+  color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.turn-tracker {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 1px solid #F5F5F5;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.turn-number {
+  font-size: 42px;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  transform: translateY(4px);
+}
+
+.turn-label {
+  font-size: 16px;
+  line-height: 16px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  padding: 8px;
+}

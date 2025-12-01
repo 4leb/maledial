@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("./Wallpaper_Thundersteps.jpg");
+  background-size: cover;
+  background-color: black;
+  overflow: hidden;
+}
+
+.main {
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.main_section {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-landscape {
+  display: none
+}
+
+@media (orientation: landscape) {
+  body {
+    background-image: url("./Wallpaper_Vorendal.jpg");
+  }
+
+  .main {
+    display: none;
+  }
+
+  .main-landscape {
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  @supports (height: 100dvh) {
+    .main-landscape  {
+      height: 100dvh;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.initiative {
+  color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.initiative-empty {
+  width: 75px;
+  height: 75px;
+  border-radius: 16px;
+  border: 1px solid #F5F5F5;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+.initiative-token {
+  width: 75px;
+  height: 75px;
+  background: url("@/app/initiative.png");
+  background-size: 100%;
+  border-radius: 16px;
+  border: 1px solid #F5F5F5;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+.initiative-label {
+  font-size: 16px;
+  line-height: 16px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  padding: 8px;
+}
