@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-image: url("./Wallpaper_Thundersteps.jpg");
+  background-image: url("/Wallpaper_Thundersteps.jpg");
   background-size: cover;
   background-color: black;
   overflow: hidden;
@@ -33,7 +33,7 @@ body {
 
 @media (orientation: landscape) {
   body {
-    background-image: url("./Wallpaper_Vorendal.jpg");
+    background-image: url("/Wallpaper_Vorendal.jpg");
   }
 
   .main {

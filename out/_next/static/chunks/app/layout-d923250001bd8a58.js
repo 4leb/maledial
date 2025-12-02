@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[177],{4533:e=>{e.exports={style:{fontFamily:"'arkhipFont', 'arkhipFont Fallback'"},className:"__className_786b40"}},5638:(e,s,a)=>{Promise.resolve().then(a.t.bind(a,4533,23)),Promise.resolve().then(a.t.bind(a,6414,23))},6414:()=>{}},e=>{var s=s=>e(e.s=s);e.O(0,[576,815,702,358],()=>s(5638)),_N_E=e.O()}]);

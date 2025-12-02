@@ -18,7 +18,7 @@
 .initiative-token {
   width: 75px;
   height: 75px;
-  background: url("@/app/initiative.png");
+  background: url("/initiative.png");
   background-size: 100%;
   border-radius: 16px;
   border: 1px solid #F5F5F5;

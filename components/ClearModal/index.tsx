@@ -1,7 +1,4 @@
 import styles from "./index.module.css";
-import Image from "next/image";
-import maledictionLogo from "@/app/malediction.png";
-import maledictionLandscapeLogo from "@/app/maledictionLandscape.png";
 
 
 interface Props {
@@ -15,14 +12,14 @@ export default function ClearModal({ onConfirm, onCancel }: Props) {
 
   return (
   <div className={styles.clear_modal}>
-    <Image
+    <img
       className={styles["clear_modal-image"]}
-      src={maledictionLogo}
+      src="/malediction.png"
       alt="Malediction logo"
     />
-    <Image
+    <img
       className={styles["clear_modal-image_landscape"]}
-      src={maledictionLandscapeLogo}
+      src="/maledictionLandscape.png"
       alt="Malediction logo"
     />
     <div className={styles["clear_modal-abstract"]}>
