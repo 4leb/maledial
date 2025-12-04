@@ -9,9 +9,9 @@ export default function EndTurnModal({ onConfirm, onCancel }: Props) {
   return (
   <div className={styles["end_turn_modal"]}>
     <div className={styles["end_turn_modal-abstract"]}>
-        <div className={styles["end_turn_modal-abstract_title"]}>End Turn?</div>
+        <div className={styles["end_turn_modal-abstract_title"]}>End Round?</div>
         <br/>
-        <div className={styles["end_turn_modal-abstract_description"]}>(Ending the turn will add echo accordingly)</div>
+        <div className={styles["end_turn_modal-abstract_description"]}>(Ending the round will add echo accordingly)</div>
     </div>
     <div className={styles["end_turn_modal-choice"]}>
         <div className={styles["end_turn_modal-cancel_button"]} onClick={onCancel}>Cancel</div>

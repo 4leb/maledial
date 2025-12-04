@@ -14,7 +14,7 @@ export default function Initiative({ turnNumber, onClick }: Props) {
       </div>
     </div>
     <div className={styles["turn-label"]}>
-      turn
+      round
     </div>
   </div>);
 }
